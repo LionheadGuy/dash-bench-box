@@ -211,14 +211,15 @@ test the first ones on a current-limited bench supply, without the pack, before 
 **Rear I/O board** (172 x 40.5 mm). Everything on the back of the box on one board, the way a PC's rear I/O works:
 it bolts behind the back wall and its connectors come through it.
 
-- **Four USB-A camera ports** (LEFT, RIGHT, REAR, FRONT), each with its own current limit. **They are pass-throughs,
-  not a hub**: three go to the computer's internal header USB ports on 4-pin leads, and FRONT goes to its USB 3.0
+- **Four USB-A camera ports** side by side, reading LEFT, REAR, RIGHT, FRONT from the left as you face the back of
+  the box, each with its own current limit. **They are pass-throughs, not a hub**: three go to the computer's internal header USB ports on 4-pin leads, and FRONT goes to its USB 3.0
   port, so every camera has a root port of its own and its full share of bandwidth.
 - **5 V for the ports is made on the board** from the box's 12-20.5 V rail, so the computer's own ports never have to
   supply camera power.
 - **One right-angle 12-way sealed CAN connector** for all four buses, its face flush with the outside of the wall.
   Inside, one 5-pin plug per channel takes the CAN card's own patch cable, unchanged.
-- **A 4-way DIP switch**: one lever per bus puts a 120 Ω terminator across that bus's H and L.
+- **A 4-way DIP switch** between the USB ports and the CAN connector: one lever per bus puts a 120 Ω terminator
+  across that bus's H and L.
 - **Ethernet** is not on this board: it is a keystone jack clipped into the wall above the FRONT port.
 
 **Charger board** (52 x 68 mm) and **converter board**: the same two boards as the
