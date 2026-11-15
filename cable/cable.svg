@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" font-family="Segoe UI, Arial, sans-serif">
+<rect width="1180" height="700" fill="#ffffff"/>
+<text x="24" y="40" font-size="27" font-weight="bold">Dash bench box - CAN breakout cable (DESIGN 2026-11-13, ferrule ends 2026-11-14)</text>
+<text x="24" y="68" font-size="15" fill="#555">One DTM 12-way plug on the rear I/O board’s header → four legs ending in ferrules, one into each laptop USB-CAN adapter’s screw terminal. Not to scale.</text>
+<rect x="40" y="150" width="150" height="330" rx="8" fill="#eef2f7" stroke="#1f3a5f" stroke-width="2.5" stroke-dasharray="9 6"/>
+<text x="115" y="176" font-size="15" font-weight="bold" text-anchor="middle">dash bench box</text>
+<text x="115" y="196" font-size="12" text-anchor="middle" fill="#555">back wall</text>
+<text x="115" y="440" font-size="12" text-anchor="middle" fill="#555">rear I/O board</text>
+<text x="115" y="458" font-size="12" text-anchor="middle" fill="#555">120 R on DIP 1-4</text>
+<text x="40" y="506" font-size="12" fill="#333">board header: TE DTM13-12PA-R005, right angle,</text>
+<text x="40" y="522" font-size="12" fill="#333">face about flush with the outside of the wall</text>
+<rect x="196" y="190" width="34" height="250" rx="4" fill="#3a3a3a" stroke="#000"/>
+<rect x="230" y="184" width="78" height="262" rx="8" fill="#b9bec4" stroke="#4a4a4a" stroke-width="2"/>
+<text x="269" y="160" font-size="14" font-weight="bold" text-anchor="middle">DTM06-12SA</text>
+<text x="269" y="176" font-size="11" text-anchor="middle" fill="#555">+ WM-12S wedge</text>
+<text x="269" y="462" font-size="11" text-anchor="middle" fill="#555">12 x 0462-201-20141</text>
+<text x="269" y="478" font-size="11" text-anchor="middle" fill="#555">size 20 socket, 20 AWG</text>
+<path d="M 308 218 H 428 C 508 218, 418 150, 538 150" fill="none" stroke="#c0392b" stroke-width="9" stroke-linecap="round"/>
+<line x1="578" y1="150" x2="1010" y2="150" stroke="#c0392b" stroke-width="9" stroke-linecap="round"/>
+<text x="302" y="209" font-size="11" text-anchor="end" fill="#222">cav 1,2,3</text>
+<rect x="338" y="205" width="74" height="26" rx="4" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="375" y="224" font-size="13" font-weight="bold" text-anchor="middle" fill="#c0392b">ENGINE</text>
+<rect x="924" y="137" width="74" height="26" rx="4" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="961" y="156" font-size="13" font-weight="bold" text-anchor="middle" fill="#c0392b">ENGINE</text>
+<text x="558" y="116" font-size="12" fill="#222">CAN_H YE/BK → H &#160;&#160; CAN_L GN/BK → L &#160;&#160; CAN_GND BK → GND &#160;&#160; (0.5 mm² ferrules)</text>
+<text x="558" y="196" font-size="12" fill="#666">H and L twisted, ground alongside; own sleeve; this bus’s ground goes nowhere else</text>
+<rect x="1014" y="134" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="146" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="158" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1050" y="128" width="58" height="44" rx="3" fill="#3a6ea5" stroke="#1f3a5f" stroke-width="2"/>
+<text x="1079" y="155" font-size="11" fill="#fff" text-anchor="middle">H L GND</text>
+<text x="1079" y="120" font-size="12" font-weight="bold" text-anchor="middle">USB-CAN adapter</text>
+<text x="1079" y="188" font-size="11" fill="#333" text-anchor="middle">1 Mbit/s, 120 R ON</text>
+<path d="M 308 284 H 428 C 508 284, 418 290, 538 290" fill="none" stroke="#2e7d32" stroke-width="9" stroke-linecap="round"/>
+<line x1="578" y1="290" x2="1010" y2="290" stroke="#2e7d32" stroke-width="9" stroke-linecap="round"/>
+<text x="302" y="275" font-size="11" text-anchor="end" fill="#222">cav 4,5,6</text>
+<rect x="338" y="271" width="74" height="26" rx="4" fill="#fff" stroke="#2e7d32" stroke-width="2"/>
+<text x="375" y="290" font-size="13" font-weight="bold" text-anchor="middle" fill="#2e7d32">BODY</text>
+<rect x="924" y="277" width="74" height="26" rx="4" fill="#fff" stroke="#2e7d32" stroke-width="2"/>
+<text x="961" y="296" font-size="13" font-weight="bold" text-anchor="middle" fill="#2e7d32">BODY</text>
+<text x="558" y="256" font-size="12" fill="#222">CAN_H YE/BK → H &#160;&#160; CAN_L GN/BK → L &#160;&#160; CAN_GND BK → GND &#160;&#160; (0.5 mm² ferrules)</text>
+<text x="558" y="336" font-size="12" fill="#666">H and L twisted, ground alongside; own sleeve; this bus’s ground goes nowhere else</text>
+<rect x="1014" y="274" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="286" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="298" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1050" y="268" width="58" height="44" rx="3" fill="#3a6ea5" stroke="#1f3a5f" stroke-width="2"/>
+<text x="1079" y="295" font-size="11" fill="#fff" text-anchor="middle">H L GND</text>
+<text x="1079" y="260" font-size="12" font-weight="bold" text-anchor="middle">USB-CAN adapter</text>
+<text x="1079" y="328" font-size="11" fill="#333" text-anchor="middle">500 kbit/s, 120 R ON</text>
+<path d="M 308 350 H 428 C 508 350, 418 430, 538 430" fill="none" stroke="#6a1b9a" stroke-width="9" stroke-linecap="round"/>
+<line x1="578" y1="430" x2="1010" y2="430" stroke="#6a1b9a" stroke-width="9" stroke-linecap="round"/>
+<text x="302" y="341" font-size="11" text-anchor="end" fill="#222">cav 7,8,9</text>
+<rect x="338" y="337" width="74" height="26" rx="4" fill="#fff" stroke="#6a1b9a" stroke-width="2"/>
+<text x="375" y="356" font-size="13" font-weight="bold" text-anchor="middle" fill="#6a1b9a">TRANS</text>
+<rect x="924" y="417" width="74" height="26" rx="4" fill="#fff" stroke="#6a1b9a" stroke-width="2"/>
+<text x="961" y="436" font-size="13" font-weight="bold" text-anchor="middle" fill="#6a1b9a">TRANS</text>
+<text x="558" y="396" font-size="12" fill="#222">CAN_H YE/BK → H &#160;&#160; CAN_L GN/BK → L &#160;&#160; CAN_GND BK → GND &#160;&#160; (0.5 mm² ferrules)</text>
+<text x="558" y="476" font-size="12" fill="#666">H and L twisted, ground alongside; own sleeve; this bus’s ground goes nowhere else</text>
+<rect x="1014" y="414" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="426" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="438" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1050" y="408" width="58" height="44" rx="3" fill="#3a6ea5" stroke="#1f3a5f" stroke-width="2"/>
+<text x="1079" y="435" font-size="11" fill="#fff" text-anchor="middle">H L GND</text>
+<text x="1079" y="400" font-size="12" font-weight="bold" text-anchor="middle">USB-CAN adapter</text>
+<text x="1079" y="468" font-size="11" fill="#333" text-anchor="middle">1 Mbit/s, 120 R ON</text>
+<path d="M 308 416 H 428 C 508 416, 418 570, 538 570" fill="none" stroke="#b8860b" stroke-width="9" stroke-linecap="round"/>
+<line x1="578" y1="570" x2="1010" y2="570" stroke="#b8860b" stroke-width="9" stroke-linecap="round"/>
+<text x="302" y="407" font-size="11" text-anchor="end" fill="#222">cav 10,11,12</text>
+<rect x="338" y="403" width="74" height="26" rx="4" fill="#fff" stroke="#b8860b" stroke-width="2"/>
+<text x="375" y="422" font-size="13" font-weight="bold" text-anchor="middle" fill="#b8860b">TYRE</text>
+<rect x="924" y="557" width="74" height="26" rx="4" fill="#fff" stroke="#b8860b" stroke-width="2"/>
+<text x="961" y="576" font-size="13" font-weight="bold" text-anchor="middle" fill="#b8860b">TYRE</text>
+<text x="558" y="536" font-size="12" fill="#222">CAN_H YE/BK → H &#160;&#160; CAN_L GN/BK → L &#160;&#160; CAN_GND BK → GND &#160;&#160; (0.5 mm² ferrules)</text>
+<text x="558" y="616" font-size="12" fill="#666">H and L twisted, ground alongside; own sleeve; this bus’s ground goes nowhere else</text>
+<rect x="1014" y="554" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="566" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1014" y="578" width="26" height="8" rx="2" fill="#f2f2f2" stroke="#444" stroke-width="1.5"/>
+<rect x="1050" y="548" width="58" height="44" rx="3" fill="#3a6ea5" stroke="#1f3a5f" stroke-width="2"/>
+<text x="1079" y="575" font-size="11" fill="#fff" text-anchor="middle">H L GND</text>
+<text x="1079" y="540" font-size="12" font-weight="bold" text-anchor="middle">USB-CAN adapter</text>
+<text x="1079" y="608" font-size="11" fill="#333" text-anchor="middle">1 Mbit/s, 120 R ON</text>
+<line x1="428" y1="120" x2="428" y2="640" stroke="#999" stroke-dasharray="6 5"/>
+<text x="434" y="636" font-size="12" fill="#666">fan-out ~60 mm from the plug</text>
+<line x1="308" y1="664" x2="1010" y2="664" stroke="#333" stroke-width="1.5" marker-start="url(#t)" marker-end="url(#t)"/>
+<defs><marker id="t" markerWidth="8" markerHeight="8" refX="4" refY="4"><line x1="4" y1="0" x2="4" y2="8" stroke="#333" stroke-width="1.5"/></marker></defs>
+<text x="659.0" y="686" font-size="13" text-anchor="middle" fill="#222">300 mm legs (up to ~1 m is fine: on the bench the box and the adapter are the bus’s two ends, both terminated)</text>
+</svg>
