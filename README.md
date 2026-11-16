@@ -22,7 +22,7 @@ leaves out is WiFi, LTE, Bluetooth, the USB hub and the Stream Deck dock, none o
 | Charging | USB-C PD (60 W+ charger; 100 W for the fastest charge), runs while charging, no break when unplugged |
 | Network | Ethernet on a keystone jack in the back wall |
 | Cooling | 3 Noctua fans (one in, two out), on the H5's own fan control |
-| Size | about 284 x 180 x 117 mm (W x H x D) + 36 mm handle |
+| Size | about 296 x 203 x 117 mm (W x H x D) + 36 mm handle |
 | Weight | about 2.7 kg (estimate) |
 
 > ## Status: read this first
@@ -229,8 +229,8 @@ an input current limit, a break-free power path, then fuses and 12 V for the com
 
 ## Printing
 
-Any FDM printer. **The shell needs a bed of at least 285 x 185 mm** (a 300 mm class printer such as a Bambu H2D,
-Prusa XL or a large Voron); everything else fits a 256 x 256 mm bed.
+Any FDM printer. **The shell needs a bed of at least 296 x 205 mm** (a 300 mm class printer such as a Bambu H2D,
+Prusa XL or a large Voron). The front plate (289 x 197) needs one too; the handle, feet and caps fit a 256 x 256 bed.
 
 **Material: ASA or ABS** (the box gets warm inside and may sit in a car). PETG works for a desk-only box. PLA is not
 recommended (softens around 55 °C). 0.2 mm layers, 4 walls, 15-25 % infill. About one 1 kg spool in all (estimate).
