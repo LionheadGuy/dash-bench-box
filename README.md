@@ -218,8 +218,9 @@ it bolts behind the back wall and its connectors come through it.
   supply camera power.
 - **One right-angle 12-way sealed CAN connector** for all four buses, its face flush with the outside of the wall.
   Inside, one 5-pin plug per channel takes the CAN card's own patch cable, unchanged.
-- **A 4-way DIP switch** between the USB ports and the CAN connector: one lever per bus puts a 120 Ω terminator
-  across that bus's H and L.
+- **A 4-way DIP switch** in line with the USB ports, between them and the CAN connector: one lever per bus puts a
+  120 Ω terminator across that bus's H and L. Reading the back of the box from the left, the levers are ENGINE,
+  BODY, TRANS, TYRE - the same order as the CAN connector's label - and the switch's own 1-4 match that.
 - **Ethernet** is not on this board: it is a keystone jack clipped into the wall above the FRONT port.
 
 **Charger board** (52 x 68 mm) and **converter board**: the same two boards as the
