@@ -18,7 +18,7 @@ leaves out is WiFi, LTE, Bluetooth, the USB hub and the Stream Deck dock, none o
 | CAN | 4 isolated channels (PEAK PCAN-M.2 Four Channel), all on **one 12-way sealed connector** in the back wall, with a 120 Ω terminator switch per bus |
 | Cameras | 4 USB-A ports on the back, each wired to its **own** port on the computer - never through a hub |
 | Timing and clock | its own GPS receiver (u-blox NEO-M9N, up to 25 fixes a second) with an SMA antenna jack in the back wall |
-| Battery | 14.8 V 6.6 Ah LiPo (~98 Wh) with a smart BMS; ~3 h at a typical 30 W |
+| Battery | 14.8 V 8.4 Ah LiPo (~124 Wh) with a smart BMS; ~4 h at a typical 30 W |
 | Charging | USB-C PD (60 W+ charger; 100 W for the fastest charge), runs while charging, no break when unplugged |
 | Network | Ethernet on a keystone jack in the back wall |
 | Cooling | 3 Noctua fans (one in, two out), on the H5's own fan control |
@@ -116,9 +116,9 @@ The same power system as the Bench Box V2, part for part.
 
 | Part | Qty | For | Price | Notes |
 |---|---|---|---|---|
-| [Liperior Endurance 6600 mAh 4S2P LiPo (LPD66004S150)](https://rcbattery.com/liperior-endurance-6600mah-4s2p-150c-14-8v-speed-runs-lipo-battery.html) | 1 | the pack, ~98 Wh | $69.99 | 135 x 54 x 42 mm, bare 7 AWG leads, no protection of its own |
+| [Exalt X-Rated 4S 135C Stick Hardcase LiPo, 14.8 V 8400 mAh (EXA3403)](https://teamexalt.com/exalt-x-rated-4s-135c-stick-hardcase-lipo-battery-14-8v-8400mah-w-5mm-bullet-connectors-exa3403/) | 1 | the pack, ~124 Wh | check the seller | 139 x 47 x 48 mm, 751 g, **5 mm bullet connectors on the pack** (the + and - leads go to different places, so each can be made to length), no protection of its own. The printed pocket is sized for this pack |
 | [JBD SP04S010A smart BMS, 4S, NMC / Li-ion version, 20 A or 30 A](https://jbdbms.com/products/sp04s010a) | 1 | protection and balancing | ~$17.50 | pick the NMC (Li-ion) 4S version |
-| [LiPo safety bag (DerBlue, 185 x 75 x 60 mm)](https://www.amazon.com/dp/B01GCHBQJS) | 1 | fire sleeve round the pack | ~$8-10 | |
+| [LiPo safety bag (DerBlue, 185 x 75 x 60 mm)](https://www.amazon.com/dp/B01GCHBQJS) | 1 | fire sleeve round the pack | ~$8-10 | the pack is a hardcase, but a sleeve is still worth having while charging |
 | [Inline ATC/ATO fuse holder, 14 AWG, + 10 A fuse](https://www.amazon.com/s?k=inline+ATC+fuse+holder+14+AWG) | 1 | pack + lead | ~$6 | |
 | [Semitec 103AT-2 10 k NTC thermistor](https://www.digikey.com/en/products/result?keywords=103AT-2) | 1 | pack temperature for the charger | $0.68 | tape it to the pack |
 | [JST PH 2-pin pigtails (pack of 10)](https://www.amazon.com/s?k=JST+PH+2.0+2+pin+pigtail) | 1 | NTC to charger J4 | ~$6 | |
